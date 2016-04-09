@@ -1,0 +1,3 @@
+rootProject.name = 'jaci-libgdx-cli-example'
+
+include 'desktop', 'android', 'ios', 'html', 'core'
