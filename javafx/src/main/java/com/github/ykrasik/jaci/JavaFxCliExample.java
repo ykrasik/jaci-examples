@@ -49,7 +49,7 @@ public class JavaFxCliExample extends Application {
             .build();
 
         // Add a scene toggler.
-        // The toggler will switch between the main scene and the CLI scene on a key combination (default Ctrl+`).
+        // The toggler will switch between the main scene and the CLI scene on a key combination (default `).
         SceneToggler.register(stage, cli);
 
         // Create a boring main scene.
@@ -59,7 +59,7 @@ public class JavaFxCliExample extends Application {
 
         stage.setScene(scene);
 
-        // The CLI will be hidden initially, press Ctrl+` to show it.
+        // The CLI will be hidden initially, press ` to show it.
         stage.show();
     }
 
