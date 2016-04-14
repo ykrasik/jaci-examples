@@ -23,6 +23,8 @@ allprojects {
         box2DLightsVersion = '1.4'
         ashleyVersion = '1.7.0'
         aiVersion = '1.8.0'
+
+        jaciVersion = '0.4.0'
     }
 
     repositories {
@@ -94,7 +96,7 @@ project(":core") {
     dependencies {
         compile "com.badlogicgames.gdx:gdx:$gdxVersion"
 
-        compile "com.github.ykrasik:jaci-libgdx-cli-gwt:0.4.0"
+        compile "com.github.ykrasik:jaci-libgdx-cli-gwt:$jaciVersion"
     }
 }
 
